@@ -1,0 +1,15 @@
+{{title}}
+
+<h3>Work Projects</h3>
+<ul>
+	{{#each workProjects}}
+		<li>{{link-to title 'company.project' company.slug slug}}</li>
+	{{/each}}
+</ul>
+
+<h3>Play Projects</h3>
+<ul>
+	{{#each playProjects}}
+		<li>{{link-to title 'play.project' slug}}</li>
+	{{/each}}
+</ul>

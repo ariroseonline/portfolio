@@ -1,3 +1,17 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h1 id='title'>Ari Rose</h1>
 
-{{outlet}}
+
+<div class="col-sm-3">
+	<ul class="nav nav-pills nav-stacked">
+		{{#link-li}}{{link-to 'Work' 'work'}}{{/link-li}}
+		{{#link-li}}{{link-to 'Play' 'play'}}{{/link-li}}
+		{{#link-li}}{{link-to 'About' 'about'}}{{/link-li}}
+		{{#link-li}}{{link-to 'Resume' 'resume'}}{{/link-li}}
+		{{#link-li}}{{link-to 'Hire' 'hire'}}{{/link-li}}
+
+	</ul>
+</div>
+
+<div class="col-sm-9">
+	{{outlet}}
+</div>

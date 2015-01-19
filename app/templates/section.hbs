@@ -1,0 +1,13 @@
+{{title}}
+
+<ul class="nav nav-pills">
+	{{#each projects}}
+		<li>{{#link-to 'project' slug}}
+				{{title}}
+			{{/link-to}}
+		</li>
+	{{/each}}
+</ul>
+{{outlet}}
+
+
