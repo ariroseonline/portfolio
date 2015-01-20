@@ -6,8 +6,7 @@ export default Ember.Route.extend({
 			return results.get('firstObject');
 		})
 	},
-
-
+	
 	redirect: function(model){
 		var route = this;
 		model.get('projects').then(function(projects){
