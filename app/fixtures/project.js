@@ -34,7 +34,6 @@ export default [
   categories: [1],
   company: 2,
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias odit et dolorem, nihil ab.",
-  project: 2,
   slug: "career-match",
   work: true
 },

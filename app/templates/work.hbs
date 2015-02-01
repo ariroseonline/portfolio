@@ -1,10 +1,15 @@
-<ul class="nav nav-pills">
-	{{#each}}
-		{{#link-li}}{{link-to title 'company' slug}}{{/link-li}}
-	{{/each}}
-</ul>
-
-<hr>
+<div class="row">
+	<div class="col-sm-12">
+		<ul class="nav nav-pills">
+			{{#each}}
+				{{#link-li}}{{link-to title 'company' slug}}{{/link-li}}
+			{{/each}}
+		</ul>
+		</div>
+</div>
 
 
 {{outlet}}
+
+
+

@@ -5,12 +5,6 @@ export default Ember.Route.extend({
 		return this.store.find('company', { 'slug': params.company_slug }).then(function(results){
 			return results.get('firstObject');
 		})
-	},
-	
-	redirect: function(model){
-		var route = this;
-		model.get('projects').then(function(projects){
-			route.transitionTo('company.project', projects.get('firstObject.slug'));
-		});
 	}
+
 });

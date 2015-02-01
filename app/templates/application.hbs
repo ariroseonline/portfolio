@@ -1,17 +1,25 @@
-<h1 id='title'>Ari Rose</h1>
+<div class="row page-header">
 
+	<div class="col-sm-3">
+		<h1 id='title'>Ari Rose</h1>
+	</div>
 
-<div class="col-sm-3">
-	<ul class="nav nav-pills nav-stacked">
-		{{#link-li}}{{link-to 'Work' 'work'}}{{/link-li}}
-		{{#link-li}}{{link-to 'Play' 'play'}}{{/link-li}}
-		{{#link-li}}{{link-to 'About' 'about'}}{{/link-li}}
-		{{#link-li}}{{link-to 'Resume' 'resume'}}{{/link-li}}
-		{{#link-li}}{{link-to 'Hire' 'hire'}}{{/link-li}}
+	<div class="col-sm-9">
+		<ul class="nav nav-pills pull-right">
+			{{#link-li}}{{link-to 'Work' 'work'}}{{/link-li}}
+			{{#link-li}}{{link-to 'Play' 'play'}}{{/link-li}}
+			{{#link-li}}{{link-to 'About' 'about'}}{{/link-li}}
+			{{#link-li}}{{link-to 'Resume' 'resume'}}{{/link-li}}
+			{{#link-li}}{{link-to 'Hire' 'hire'}}{{/link-li}}
+		</ul>
+	</div>
 
-	</ul>
 </div>
 
-<div class="col-sm-9">
-	{{outlet}}
+
+<div class="row">
+	<div class="col-sm-12">
+		{{outlet}}
+	</div>
+
 </div>
