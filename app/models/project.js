@@ -5,6 +5,7 @@ var Project = DS.Model.extend({
   description: DS.attr('string'),
   categories: DS.hasMany('category', {async: true}),
   company: DS.belongsTo('company', {async: true}),
+  images: DS.hasMany('image', {async: true}),
   work: DS.attr('boolean'),
   slug: DS.attr('string'),
 });

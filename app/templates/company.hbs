@@ -1,10 +1,11 @@
+<div class="row">
 <div class="col-sm-12 projects-nav">
 	<ul class="nav nav-pills">
 		{{#each projects}}
 			{{#link-li}}{{link-to title 'company.project' slug}}{{/link-li}}
 		{{/each}}
 	</ul>
-	<hr>
+</div>
 </div>
 
 {{outlet}}

@@ -1,9 +1,17 @@
 <div class="row">
-	<div class="col-sm-9">
-		<img src="http://placehold.it/500x700">
-	</div>
-	<div class="col-sm-3 pull-right">
+
+	<div class="col-sm-3 col-sm-push-9">
 		{{project-metadata title=title description=description categories=categories}}
 	</div>
+
+	<div class="col-sm-9 col-sm-pull-3">
+		{{#each image in images}}
+			<div {{bind-attr class="isLogos:col-sm-6:col-sm-12"}}>
+				<span>{{image.title}}</span>
+				<img {{bind-attr src="image.url"}} />
+			</div>
+		{{/each}}
+	</div>
+
 
 </div>
