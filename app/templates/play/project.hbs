@@ -6,9 +6,11 @@
 
 	<div class="col-sm-9 col-sm-pull-3">
 		{{#each image in images}}
-			<div {{bind-attr class="isLogos:col-sm-6:col-sm-12"}}>
-				<span>{{image.title}}</span>
-				<img {{bind-attr src="image.url"}} />
+			<div class="row">
+				<div {{bind-attr class="isLogos:col-sm-6:col-sm-12"}}>
+					<span>{{image.title}}</span>
+					<img {{bind-attr src="image.url"}} />
+				</div>
 			</div>
 		{{/each}}
 	</div>
