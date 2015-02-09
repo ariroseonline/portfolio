@@ -76,7 +76,7 @@ export default [
   company: 1,
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus provident maiores velit nam aliquid, et veniam veritatis, laboriosam, ab cumque laudantium voluptatibus minima sit.",
   slug: 'dueprops',
-  images: [12,13, 26],
+  images: [12,13, 26, 29],
   work: true
 },
 
@@ -99,7 +99,7 @@ export default [
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus provident maiores velit nam aliquid, et veniam veritatis, laboriosam, ab cumque laudantium voluptatibus minima sit.",
   slug: 'wetfeet-company-match',
   work: true,
-  images: [27,28]
+  images: [28,27]
 },
 
 {

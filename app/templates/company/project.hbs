@@ -1,11 +1,24 @@
 <div class="row">
-	<div class="col-sm-3 col-sm-push-9">
+	<div class="col-sm-3">
 		{{project-metadata title=title description=description categories=categories}}
 	</div>
-	<div class="col-sm-9 col-sm-pull-3">
-		{{#each images}}
-			<span>{{image.title}}</span>
-			<img {{bind-attr src="url"}} />
-		{{/each}}
+	<div class="col-sm-9">
+		<span>{{mainImage.title}}</span>
+		<img {{bind-attr src="mainImage.url"}} />
+
+		<button {{action 'toggleProcess'}}>
+			{{#if showProcess}}
+					Hide Process
+			{{else}}
+					Show Process
+			{{/if}}
+		</button>
+		
+		{{#if showProcess}}
+
+			{{project-process auxillaryImages=auxillaryImages}}
+
+		{{/if}}
+
 	</div>
 </div>

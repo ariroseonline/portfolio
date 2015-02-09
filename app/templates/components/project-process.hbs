@@ -1,0 +1,7 @@
+<div {{bind-attr class=":process"}}>
+	{{#each image in auxillaryImages}}
+		<hr>
+		<span>{{image.title}}</span>
+		<img {{bind-attr src="image.url"}} />
+	{{/each}}
+</div>

@@ -170,6 +170,13 @@ export default [
   id: 28,
   title: "wetfeet personality fit 2",
   url: "/assets/images/wetfeet-personality-fit2.png"
+},
+
+
+{
+  id: 29,
+  title: "dueprops 5",
+  url: "/assets/images/dueprops5.png"
 }
 
 ];
