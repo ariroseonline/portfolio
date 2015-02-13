@@ -4,6 +4,7 @@ export default [
     title: "DueProps",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, tenetur doloremque architecto reiciendis obcaecati aut.",
     projects: [8],
+    logo: "assets/images/logos/dueprops-logo.png",
     slug: "dueprops" 
   },
   {
@@ -11,6 +12,7 @@ export default [
     title: "Universum",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, tenetur doloremque architecto reiciendis obcaecati aut.",
     projects: [9,10, 14],
+    logo: "assets/images/logos/universum-logo.png",
     slug: "universum" 
   },
   {
@@ -18,6 +20,7 @@ export default [
     title: "GoWatchIt",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, tenetur doloremque architecto reiciendis obcaecati aut.",
     projects: [1,2,3],
+    logo: "assets/images/logos/gowatchit-logo.png",
     slug: "gowatchit" 
   },
 
@@ -26,6 +29,7 @@ export default [
     title: "Flatiron School",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, tenetur doloremque architecto reiciendis obcaecati aut.",
     projects: [11],
+    logo: "assets/images/logos/flatiron-school-logo.png",
     slug: "flatiron-school" 
   },
 ];

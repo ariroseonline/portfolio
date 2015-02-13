@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+
+		this.route('splash');
+		
 		this.resource('work', { path: '/work'}, function(){
 			this.resource('company', { path: '/:company_slug'}, function(){
 				this.route('project', { path: '/:project_slug'})
