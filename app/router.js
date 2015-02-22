@@ -28,6 +28,8 @@ Router.map(function() {
 		this.route('hire');
 		this.route('resume');
 
+  this.route('skills');
+  this.route('projects');
 });
 
 export default Router;
