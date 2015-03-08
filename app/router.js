@@ -32,7 +32,7 @@ Router.map(function() {
   this.route('skills');
 
   
-  this.resource('projects', function(){
+  this.resource('work', function(){
 		this.resource('company', { path: '/:company_slug'}, function(){
 			this.resource('project', { path: '/:project_slug'})
 		})

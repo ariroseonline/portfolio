@@ -38,7 +38,7 @@ export default [
 
   {
     id: 99,
-    title: "yoyoyo play",
+    title: "Odds and Ends",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, tenetur doloremque architecto reiciendis obcaecati aut.",
     projects: [5,6,7,12,13],
     logo: "assets/images/logos/dueprops-logo.png",

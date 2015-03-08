@@ -132,11 +132,11 @@ export default [
 
 {
   id: 13,
-  title: "Odds and ends",
+  title: "Converse",
   categories: [1],
   company: 99,
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus provident maiores velit nam aliquid, et veniam veritatis, laboriosam, ab cumque laudantium voluptatibus minima sit.",
-  slug: 'odds-and-ends',
+  slug: 'converse',
   isWork: false,
   images: [11]
 },

@@ -16,6 +16,7 @@ ul {
 
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
 
 img {
@@ -114,8 +115,12 @@ color: #454545;
 	}
 
 	.yo {
-		background: rgb(253, 255, 192);
-padding: 0 4px;
+		padding: 20px;
+		display: inline;
+		background: white;
+		border: 3px solid black;
+		margin-right: 10px;
+
 	}
 
 	.main-nav > li {

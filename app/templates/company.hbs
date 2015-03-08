@@ -2,10 +2,11 @@
 <p style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique temporibus animi, error, est voluptatem voluptate aliquid accusamus iure sapiente dolores, a ut reiciendis. A, itaque, eaque? Eos doloremque sapiente corporis!</p>
 
 <div class="col-sm-12 projects-nav">
-	<h4>Projects:</h4>
-	<ul class="nav nav-pills">
+{{!-- 	<h4>Projects:</h4>
+ --}}	<ul class="">
 		{{#each projects}}
-			{{#link-li}}{{link-to title 'project' slug}}{{/link-li}}
+
+			{{#link-li class="yo"}}{{link-to title 'project' slug}}{{/link-li}}
 		{{/each}}
 	</ul>
 </div>

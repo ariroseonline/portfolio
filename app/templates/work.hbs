@@ -1,20 +1,26 @@
-<div class="row">
-	<div class="col-sm-12 companies-nav">
-		<h4>Companies:</h4>
-		<ul class="nav nav-pills">
-			{{#each}}
-				{{#link-li}}
-					{{#link-to 'company' slug}}
-						<img {{bind-attr src=logo alt=company}} width="50"/>
-					{{/link-to}}
-				{{/link-li}}
-			{{/each}}
-		</ul>
-		</div>
+<div class="col-sm-2">
+	WORK
+	<ul class="nav nav-pills nav-stacked">
+		{{#each}}
+			{{#link-li}}
+				{{#link-to 'company' slug}}
+				{{title}}
+				{{/link-to}}
+			{{/link-li}}		
+		{{/each}}
+	</ul>
+
+{{!-- 	PLAY
+	<ul class="nav nav-pills nav-stacked">
+		{{#each playProjects}}
+			{{#link-li}}
+				{{#link-to 'project' 'play' slug}}
+				{{title}}
+				{{/link-to}}
+		{{/link-li}}		{{/each}}
+	</ul> --}}
 </div>
-
-
-{{outlet}}
-
-
-
+<div class="col-sm-10">
+	{{outlet}}
+	yo
+</div>
