@@ -1,1 +1,26 @@
-{{outlet}}
+<div class="col-sm-2">
+	WORK
+	<ul class="nav nav-pills nav-stacked">
+		{{#each}}
+			{{#link-li}}
+				{{#link-to 'company' slug}}
+				{{title}}
+				{{/link-to}}
+			{{/link-li}}		
+		{{/each}}
+	</ul>
+
+{{!-- 	PLAY
+	<ul class="nav nav-pills nav-stacked">
+		{{#each playProjects}}
+			{{#link-li}}
+				{{#link-to 'project' 'play' slug}}
+				{{title}}
+				{{/link-to}}
+		{{/link-li}}		{{/each}}
+	</ul> --}}
+</div>
+<div class="col-sm-10">
+	{{outlet}}
+	yo
+</div>

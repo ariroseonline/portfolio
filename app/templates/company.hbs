@@ -1,8 +1,11 @@
+<img src="http://placehold.it/20x20" alt="" style="width: 40px; height: 40px; margin-right: 10px; float: left;"><h1 style="margin:0;">{{title}}</h1>
+<p style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique temporibus animi, error, est voluptatem voluptate aliquid accusamus iure sapiente dolores, a ut reiciendis. A, itaque, eaque? Eos doloremque sapiente corporis!</p>
+
 <div class="col-sm-12 projects-nav">
 	<h4>Projects:</h4>
 	<ul class="nav nav-pills">
 		{{#each projects}}
-			{{#link-li}}{{link-to title 'company.project' slug}}{{/link-li}}
+			{{#link-li}}{{link-to title 'project' slug}}{{/link-li}}
 		{{/each}}
 	</ul>
 </div>
